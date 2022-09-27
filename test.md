@@ -21,4 +21,4 @@
 - my 
 - tasks
 
-This can be hard at times because I am afraid of commitment
+This can be hard at times because I am afraid of commitment 
