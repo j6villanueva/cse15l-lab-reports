@@ -14,11 +14,16 @@
 
 * so
 * instead
-* I try
+* I 
+* try
 * to
 - list
 - out
-- my 
-- tasks
+1. my 
+2. tasks
+---
+`I sometimes code it up... or down`
 
 This can be hard at times because I am afraid of commitment 
+
+
