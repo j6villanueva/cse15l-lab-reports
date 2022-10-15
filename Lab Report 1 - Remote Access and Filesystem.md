@@ -31,7 +31,7 @@
     }
     }
 
-    inside of the file. Make sure to run Javac WhereAmI.java to make a class file and then you are able to run the file by typing in Java WhereAmI. Next, all you have to do is type “scp WhereAmI.java cs15lfa22da@ieng6.ucsd.edu:~/“ with the "da" part changed to your own and it will move the WhereAmI.java file to the remote computer. Remember you will have to enter your password when the terminal requests it, which will not show as a cursor movement in your terminal. 
+    inside of the file. Make sure to run Javac WhereAmI.java to make a class file and then you are able to run the file by typing in Java WhereAmI. Next, all you have to do is type “scp WhereAmI.java cs15lfa22da@ieng6.ucsd.edu:~/“ with the "da" part changed to your own and it will move the WhereAmI.java file to the remote computer. Remember you will have to enter your password when the terminal requests it, which will not show as a cursor movement in your terminal.   
 
 ---
 ## Setting an SSH Key
