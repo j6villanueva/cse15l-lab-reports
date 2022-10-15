@@ -16,7 +16,7 @@
 ## Trying Some Commands
 ![Trying Some Commands](LabWeek1.3.png)
 
-    I tried the LS, cd, PWD, MKDIR, and cp commands. What’s neat about this is all you have to do is type out “—help” after a command and it gives you a layout of what you can do with that command. I noticed immediately that by typing MKDIR I got an error and was easily helped by using “—help”.
+    I tried the LS, cd, PWD, MKDIR, and cp commands. PWD let me look a my current directory is helpful for finding where I am. The ls command showed me what is in my directory. I was able move to directories by using the cd command. Even more than that, all you have to do is type out “—help” after a command and it gives you a layout of what you can do with that command. I noticed immediately that by typing MKDIR I got an error and was easily helped by using “—help”.
 ---
 ## Moving Files with scp
 ![Moving Files with scp](LabWeek1.4.png)
@@ -31,7 +31,7 @@
     }
     }
 
-    inside of the file. make sure to run Javac WhereAmI.java to make a class file and then you are able to run the file by typing in Java WhereAmI. Next, all you have to do is type “scp WhereAmI.java cs15lfa22da@ieng6.ucsd.edu:~/“ and it will move the WhereAmI.java file to the remote computer.
+    inside of the file. Make sure to run Javac WhereAmI.java to make a class file and then you are able to run the file by typing in Java WhereAmI. Next, all you have to do is type “scp WhereAmI.java cs15lfa22da@ieng6.ucsd.edu:~/“ with the "da" part changed to your own and it will move the WhereAmI.java file to the remote computer. Remember you will have to enter your password when the terminal requests it, which will not show as a cursor movement in your terminal. 
 
 ---
 ## Setting an SSH Key
