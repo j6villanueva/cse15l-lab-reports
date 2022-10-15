@@ -20,7 +20,7 @@
 ---
 ## Moving Files with scp
 ![Moving Files with scp](LabWeek1.4.png)
-
+  
     For copying using SCP I created a file on my computer named “WhereAmI.Java” with 
     class WhereAmI {
     public static void main(String[] args) {
