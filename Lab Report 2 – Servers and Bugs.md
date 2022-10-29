@@ -15,7 +15,7 @@
 
 ---
 ### Add
- ![add pineapple](Pineapple.3.png)
+ ![add pineapple](Pineapple.png)
  *Which methods in your code are called
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
  *What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
