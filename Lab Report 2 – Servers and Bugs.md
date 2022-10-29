@@ -59,7 +59,7 @@
 ## ArrayExamples.java
  *The failure-inducing input (the code of the test)
 
- ![ArrayExamplesTest](ArrayExamplesTest.png)
+ ![ArrayExamplesTest](ArrayTests.png)
 
  *The symptom (the failing test output)  
  The array writes the reversed array into itself. 
