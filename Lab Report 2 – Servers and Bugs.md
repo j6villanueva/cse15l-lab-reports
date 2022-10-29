@@ -42,7 +42,7 @@
 ## URL in the browser and the response on the page:
 
  ![query app](appQuery.png)
- 
+
  * Which methods in your code are called
 
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
@@ -83,7 +83,7 @@
 
 ---
 ## ArrayExamples.java
- *The failure-inducing input (the code of the test)
+ * The failure-inducing input (the code of the test)
 
  ![ArrayExamplesTest](ArrayTests.png)
 
