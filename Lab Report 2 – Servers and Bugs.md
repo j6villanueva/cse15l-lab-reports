@@ -5,9 +5,9 @@
 ---
 ### Add
 ![add apple](AddedW.png)
- *Which methods in your code are called:
+ * Which methods in your code are called:
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
- *What the values of the relevant arguments to those methods are, and the values of any relevant fields(instance variable) of the class:
+ * What the values of the relevant arguments to those methods are, and the values of any relevant fields(instance variable) of the class:
  My field is an arrayList called sList and my argument is the server URL which is an input of the handleRequest method. This parameter is read and based on that text after “/”, the  search engine acts accordingly. 
  *If those values change, how do they change by the time the request is done processing?
  
