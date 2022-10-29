@@ -1,6 +1,7 @@
 # Week 2 Lab Report: Servers & Bugs
 ### Search Engine
-![Search Engine]](searchEngine.png)
+
+![Search Engine](searchEngine.png)
 ---
 ### Add
 ![add apple]](AddedW.png)
