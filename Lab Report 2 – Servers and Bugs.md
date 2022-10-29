@@ -53,12 +53,14 @@
  *Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
  Line 41 is in an infinite while loop as it moves the pointer forward but never equals null therefore never flipping the bool in the while loop. The loop always appends a node in front of n which is why it never hits null. This results in a huge linked list until running out of memory.
 
-
+ 
 
 ---
 ## ArrayExamples.java
  *The failure-inducing input (the code of the test)
+
 ![ArrayExamplesTest](ArrayExamplesTest.png)
+
  *The symptom (the failing test output)  
  The array writes the reversed array into itself. 
  *The bug (the code fix needed)
