@@ -9,7 +9,7 @@
 
  ![add apple](AddedW.png)
 
- * Which methods in your code are called:
+ * Which methods in your code are called?
 
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
  * What the values of the relevant arguments to those methods are, and the values of any relevant fields(instance variable) of the class?
