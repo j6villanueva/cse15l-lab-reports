@@ -1,9 +1,9 @@
 # Week 2 Lab Report: Servers & Bugs
+# Part 1
 ### Search Engine
-
  ![Search Engine](searchEngine.png)
 ---
-### Add
+## Add
  ![add apple](AddedW.png)
  * Which methods in your code are called:
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
@@ -14,7 +14,7 @@
  Since “/add” is after the server name and port, my if statement adds the string listed after the “/add”. “apple” is then added to the array.
 
 ---
-### Add
+## Add
  ![add pineapple](Pineapple.png)
  *Which methods in your code are called
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
@@ -25,7 +25,7 @@
 
 
 ---
-### URL in the browser and the response on the page:
+## URL in the browser and the response on the page:
  ![query app](appQuery.png)
  *Which methods in your code are called
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
@@ -35,9 +35,9 @@
  None of the values change but they are instead read back to the user from the server. 
 
 
-## Part 2
+# Part 2
 ---
-### LinkedListExamples.Java
+## LinkedListExamples.Java
  *The failure-inducing input (the code of the test)
  ![LinkedListTest](LinkedListTest.png)
  *The symptom (the failing test output) 
