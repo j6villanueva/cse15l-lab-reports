@@ -1,10 +1,10 @@
 # Week 2 Lab Report: Servers & Bugs
 ### Search Engine
 
-![Search Engine](searchEngine.png)
+ ![Search Engine](searchEngine.png)
 ---
 ### Add
-![add apple](AddedW.png)
+ ![add apple](AddedW.png)
  * Which methods in your code are called:
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
  * What the values of the relevant arguments to those methods are, and the values of any relevant fields(instance variable) of the class:
@@ -15,7 +15,7 @@
 
 ---
 ### Add
-![add pineapple](Pineapple.3.png)
+ ![add pineapple](Pineapple.3.png)
  *Which methods in your code are called
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
  *What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
@@ -26,7 +26,7 @@
 
 ---
 ### URL in the browser and the response on the page:
-![query app](appQuery.png)
+ ![query app](appQuery.png)
  *Which methods in your code are called
  My handleRequest method is called to read through my URL and decide what action to take (if any). 
  *What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
@@ -39,7 +39,7 @@
 ---
 ### LinkedListExamples.Java
  *The failure-inducing input (the code of the test)
-![LinkedListTest](LinkedListTest.png)
+ ![LinkedListTest](LinkedListTest.png)
  *The symptom (the failing test output) 
  After the test is run it is stopped because the heap ran out of memory due to the memory leak in the infinite loop.
  *The bug (the code fix needed)
@@ -59,7 +59,7 @@
 ## ArrayExamples.java
  *The failure-inducing input (the code of the test)
 
-![ArrayExamplesTest](ArrayExamplesTest.png)
+ ![ArrayExamplesTest](ArrayExamplesTest.png)
 
  *The symptom (the failing test output)  
  The array writes the reversed array into itself. 
