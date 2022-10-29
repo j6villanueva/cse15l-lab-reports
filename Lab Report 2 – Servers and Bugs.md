@@ -1,42 +1,75 @@
-# Week 1 Lab Report: Remote Access
-## Installing VScode
+# Week 2 Lab Report: Servers & Bugs
+### Search Engine
 ![Search Engine]](searchEngine.png)
-
-    I already had VScode installed on my computer. For anyone looking to install VScode, its as easy as going directly onto their website.
 ---
-## Remotely Connecting
-![Remotely Connecting](LabWeek1.2.png)
-
-    All I had to do for this step was login by typing ssh cs15lfa22da@ieng6.ucsd.edu into the terminal and putting in my password. You will know that login was successful if you see a last login date/time and a confirmation that says “you are currently logged into ieng6”.
----
-## Trying Some Commands
-![Trying Some Commands](LabWeek1.3.png)
-
-    I tried the LS, cd, PWD, MKDIR, and cp commands. PWD let me look a my current directory is helpful for finding where I am. The ls command showed me what is in my directory. I was able move to directories by using the cd command. Even more than that, all you have to do is type out “—help” after a command and it gives you a layout of what you can do with that command. I noticed immediately that by typing MKDIR I got an error and was easily helped by using “—help”.
----
-## Moving Files with scp
-![Moving Files with scp](LabWeek1.4.png)
-  
-    For copying using SCP I created a file on my computer named “WhereAmI.Java” with 
-    class WhereAmI {
-    public static void main(String[] args) {
-        System.out.println(System.getProperty("os.name"));
-        System.out.println(System.getProperty("user.name"));
-        System.out.println(System.getProperty("user.home"));
-        System.out.println(System.getProperty("user.dir"));
-    }
-    }
-
-    inside of the file. Make sure to run Javac WhereAmI.java to make a class file and then you are able to run the file by typing in Java WhereAmI. Next, all you have to do is type “scp WhereAmI.java cs15lfa22da@ieng6.ucsd.edu:~/“ with the "da" part changed to your own and it will move the WhereAmI.java file to the remote computer. Remember you will have to enter your password when the terminal requests it, which will not show as a cursor movement in your terminal.   
+### Add
+![add apple]](AddedW.png)
+ *Which methods in your code are called:
+ My handleRequest method is called to read through my URL and decide what action to take (if any). 
+ *What the values of the relevant arguments to those methods are, and the values of any relevant fields(instance variable) of the class:
+ My field is an arrayList called sList and my argument is the server URL which is an input of the handleRequest method. This parameter is read and based on that text after “/”, the  search engine acts accordingly. 
+ *If those values change, how do they change by the time the request is done processing?
+ 
+ Since “/add” is after the server name and port, my if statement adds the string listed after the “/add”. “apple” is then added to the array.
 
 ---
-## Setting an SSH Key
-![Setting an SSH Key](LabWeek1.5.png)
+### Add
+![add pineapple](Pineapple.3.png)
+ *Which methods in your code are called
+ My handleRequest method is called to read through my URL and decide what action to take (if any). 
+ *What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
+ My field is an arrayList called sList and my argument is the server URL which is an input of the handleRequest method. This parameter is read and based on that text after “/”, the search engine acts accordingly.
+ *If those values change, how they change by the time the request is done processing
+ Since “/add” is after the server name and port, my if statement adds the string listed after the “/add”. “pineapple” is then added to the array.
 
-    First, make sure to create the pair of files to access the server with “ssh-keygen.” After, I designated where the keys would be stored on my remote computer(/Users/joshuavillanueva/.ssh/id_rsa). Lastly all I had to do is copy the key over to the server by logging into remote server, create a .ssh directory, logout, and use SCP to copy the file to .ssh on the server.
 
 ---
-## Optimizing Remote Running
-![Optimizing Remote Running](LabWeek1.6.png)
+### URL in the browser and the response on the page:
+![query app](appQuery.png)
+ *Which methods in your code are called
+ My handleRequest method is called to read through my URL and decide what action to take (if any). 
+ *What the values of the relevant arguments to those methods are, and the values of any relevant fields of the class
+ My field is an arrayList called sList and my argument is the server URL which is an input of the handleRequest method. This parameter is read and based on that text after “/”, the search engine acts accordingly.
+ *If those values change, how do they change by the time the request is done processing
+ None of the values change but they are instead read back to the user from the server. 
 
-    Now that the SSH key is set, remote running is a lot easier. I was able to use quotes around my commands, such as “ls”, to run things from the remote server.
+
+## Part 2
+---
+### LinkedListExamples.Java
+ *The failure-inducing input (the code of the test)
+![LinkedListTest](LinkedListTest.png)
+ *The symptom (the failing test output) 
+ After the test is run it is stopped because the heap ran out of memory due to the memory leak in the infinite loop.
+ *The bug (the code fix needed)
+ By iterating through the loop until the last node, then appending a new node outside the while loop the bug is fixed.
+
+       while(n.next != null) {
+           n = n.next;
+       }
+           n.next = new Node(value, null);
+ 
+ *Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+ Line 41 is in an infinite while loop as it moves the pointer forward but never equals null therefore never flipping the bool in the while loop. The loop always appends a node in front of n which is why it never hits null. This results in a huge linked list until running out of memory.
+
+
+
+---
+## ArrayExamples.java
+ *The failure-inducing input (the code of the test)
+![ArrayExamplesTest](ArrayExamplesTest.png)
+ *The symptom (the failing test output)  
+ The array writes the reversed array into itself. 
+ *The bug (the code fix needed)
+Line 8 can be fixed by creating a new array and filling it with the reversed list.
+
+ static void reverseInPlace(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     newArray[i] = arr[arr.length - i - 1];
+     arr = newArray;
+   }
+ }
+
+ *Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+ Mid-way through the array, duplicate data will begin to be entered in the array because of the bug resulting in an inaccurate array list.
