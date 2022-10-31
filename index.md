@@ -1,5 +1,4 @@
-Welcome to the CS15L Matrix ^_^
-
+Welcome to the CS15L Matrix (Blue Pill)(Red Pill)
 
 [Lab Report 0 - Say Hello](https://github.com/j6villanueva/cse15l-lab-reports/blob/main/lab-report-1-week-0.md) 
 
