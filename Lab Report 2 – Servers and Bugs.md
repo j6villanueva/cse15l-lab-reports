@@ -2,12 +2,12 @@
 # Part 1
 ### Search Engine
 
- ![Search Engine](searchEngine.png)
+ ![Search Engine](Lab2-img/searchEngine.png)
 
 ---
 ## Add
 
- ![add apple](AddedW.png)
+ ![add apple](Lab2-img/AddedW.png)
 
  * Which methods in your code are called?
 
@@ -23,7 +23,7 @@
 ---
 ## Add
 
- ![add pineapple](Pineapple.png)
+ ![add pineapple](Lab2-img/Pineapple.png)
 
  * Which methods in your code are called?
 
@@ -41,7 +41,7 @@
 ---
 ## URL in the browser and the response on the page:
 
- ![query app](appQuery.png)
+ ![query app](Lab2-img/appQuery.png)
 
  * Which methods in your code are called
 
@@ -61,7 +61,7 @@
 ## LinkedListExamples.Java
  * The failure-inducing input (the code of the test)
 
- ![LinkedListTest](LinkedListTest.png)
+ ![LinkedListTest](Lab2-img/LinkedListTest.png)
 
  * The symptom (the failing test output) 
 
@@ -85,7 +85,7 @@
 ## ArrayExamples.java
  * The failure-inducing input (the code of the test)
 
- ![ArrayExamplesTest](ArrayTests.png)
+ ![ArrayExamplesTest](Lab2-img/ArrayTests.png)
 
  * The symptom (the failing test output)  
 

@@ -6,4 +6,4 @@ Hello, world!
 
 [Lab Report - Week 1](Lab Report 1 - Remote Access and Filesystem.md)
 
-[Lab Report - Week 2 Code](Lab Report 2 – Servers and Bugs.md)
+[Lab Report - Week 2](Lab Report 2 – Servers and Bugs.md)
