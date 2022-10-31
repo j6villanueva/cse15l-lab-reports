@@ -5,7 +5,6 @@
 # grep -r EAI
  ![Example1.1](Lab3-img/Lab3.1.1.png)
  
- 
 ---
 # grep -r EAI
  ![Example1.1](Lab3-img/Lab3.1.1.png)
