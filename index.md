@@ -8,4 +8,4 @@ Hello, world!
 
 [Lab Report 2 – Servers and Bugs](Lab Report 2 – Servers and Bugs.md)
 
-[Lab Report 3 - Commands] (Lab Report 3 - Commands.md)
+[Lab Report 3 - Commands](Lab Report 3 - Commands.md)
