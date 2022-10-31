@@ -2,9 +2,10 @@
 # Command: grep
 
 # grep -r EAI
-![Example1.2](Lab3-img/Lab3.1.1.png)
+ ![Example1.1](Lab3-img/Lab3.1.1.png)
+ 
 
---
+---
 # grep -r "(St. Louis, MO)"
 ![Example1.2](Lab3-img/Lab3.1.2.png)
 
