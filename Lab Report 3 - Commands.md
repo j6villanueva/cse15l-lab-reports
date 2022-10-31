@@ -8,7 +8,7 @@
 
 ---
 # grep -r "(St. Louis, MO)"
-![Example1.2](Lab3-img/Lab3.1.2.png)
+![Example1.1](Lab3-img/Lab3.1.1.png)
 
 # grep-r "Membranes were stripped and"
 ![Example1.3](Lab3-img/Lab3.1.3.png)
