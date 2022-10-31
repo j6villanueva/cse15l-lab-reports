@@ -2,11 +2,6 @@
 # Command: grep
 ### Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
-# grep -r EAI
- ![Example1.1](Lab3-img/Lab3.1.1.png)
- 
----
-
 
 # grep -r EAI
  ![Example1.1](Lab3-img/Lab3.1.1.png)
