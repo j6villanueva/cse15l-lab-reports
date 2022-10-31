@@ -1,9 +1,10 @@
 # Week 2 Lab Report: Servers & Bugs
 # Command: grep
-
-![Example1.1](Lab3-img/Lab3.1.1.png)
+# grep -r "(St. Louis, MO)"
+![Example1.2](Lab3-img/Lab3.1.1.png)
 
 --
+# grep -r "(St. Louis, MO)"
 ![Example1.2](Lab3-img/Lab3.1.2.png)
 ![Example1.3](Lab3-img/Lab3.1.3.png)
 ![Example2.1](Lab3-img/Lab3.2.1.png)
