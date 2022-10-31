@@ -61,5 +61,5 @@
 ## grep -v "antibodies" 1475-2875-1-5.txt
  ![Example3.3](Lab3-img/Lab3.3.3.png)
        The grep -v command allows for a user to inverse search for the instances of a string on a line in a specific file. This is the opposite of searchng for a term and the result only shows lines that do not contain the term. This is a useful command if a user wants to filter out a certain term unrelated to their research such as "parasites".
-       
+
 ---
