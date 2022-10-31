@@ -17,7 +17,6 @@
 # grep inhibitor ./1477-7827-1-31.txt
 ![Example2.2](Lab3-img/Lab3.2.2.png)
 
-
 # grep Chemicals ./1477-7827-1-31.txt
 ![Example2.3](Lab3-img/Lab3.2.3.png)
 
