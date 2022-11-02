@@ -4,8 +4,8 @@ Welcome to the CS15L Matrix (Blue Pill)(Red Pill)
 
 [Lab Report 0 - Lets get rowdy with our code](https://github.com/j6villanueva/cse15l-lab-reports/blob/main/test.md)
  
-[Lab Report 1 - Remote Access and Filesystem](Lab Report 1 - Remote Access and Filesystem.md)
+[Lab Report 1 - Remote Access and Filesystem](LabReport1-Remote-Access-and-Filesystem.md)
 
-[Lab Report 2 – Servers and Bugs](Lab Report 2 – Servers and Bugs.md)
+[Lab Report 2 – Servers and Bugs](LabReport2–Servers-and-Bugs.md)
 
-[Lab Report 3 - Commands](Lab Report 3 - Commands.md)
+[Lab Report 3 - Commands](LabReport3-Commands.md)
