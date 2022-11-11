@@ -2,4 +2,4 @@
 # 
 
 * Open DocSearchServer in Vim
-'vim DocSearchServer.java'
+`vim DocSearchServer.java`
