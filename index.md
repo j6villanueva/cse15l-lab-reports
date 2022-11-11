@@ -9,3 +9,5 @@ Welcome to the CS15L Matrix (Blue Pill)(Red Pill)
 [Lab Report 2 – Servers and Bugs](LabReport2–Servers-and-Bugs.md)
 
 [Lab Report 3 - Commands](LabReport3-Commands.md)
+
+[Lab Report 4 - Vim](LabReport4-Vim.md)
