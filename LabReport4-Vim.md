@@ -18,19 +18,18 @@ Key Sequence to change main method:
 ###    c. `ce` **Replace to the end of the current word with nothing**
  ![Step3](Lab4-img/Lab4.3.png)
 
-###     d. `<esc>` Exit insert mode
+###    d. `<esc>` **Exit insert mode.**
  ![Step4](Lab4-img/Lab4.4.png)
 
-
+###    e. `h h` **Move cursor left twice to the beginning of the parameter input.**
  ![Step5](Lab4-img/Lab4.5.png)
-* Move cursor left twice to the beginning of the parameter input
 
-`h h`
 
+
+###    f. `x x x x x` **Delete everything in parameter input**
  ![Step6](Lab4-img/Lab4.6.png)
-* Delete everything in parameter input
 
-`x x x x x`
+
 
  ![Step7](Lab4-img/Lab4.7.png)
 * Change to insert mode
