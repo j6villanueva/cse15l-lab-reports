@@ -13,7 +13,7 @@
 ![Step1.1](Lab4-img/Lab4.1.1.png) 
 
 ###    b. `n` **Iterate once to the second occcurence of techn**
- ![Step2](Lab4-img/Lab4.2.png)
+![Step2](Lab4-img/Lab4.2.png)
 
 ###    c. `ce` **Replace to the end of the current word with nothing**
  ![Step3](Lab4-img/Lab4.3.png)
