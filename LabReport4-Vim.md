@@ -1,10 +1,11 @@
 # Lab Report 4 - Vim
 # Change main method to allow the second command line argument to be used for the path to search
 
-`vim DocSearchServer.java/techn<Enter>nce<esc>hhxxxxxiargs[1]<esc>:wq`
+`/techn<Enter>nce<esc>hhxxxxxiargs[1]<esc>:wq`
 
  ![Step1](Lab4-img/Lab4.1.png)
-* Search for occurrences of /techn 
+ ![Step1.1](Lab4-img/Lab4.1.1.png)
+* Search for occurrences of /techn
 
 `/techn<Enter>`
 
