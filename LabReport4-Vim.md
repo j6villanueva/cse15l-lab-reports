@@ -1,4 +1,7 @@
 # Lab Report 4 - Vim
+
+# Part 1
+
 ## Change main method to allow the second command line argument to be used for the path to search
 
 ### Key Sequence to change main method:
@@ -40,3 +43,7 @@
 
 ### * j. `:wq` **Save and quit vim.**
  ![Step10](Lab4-img/Lab4.10.png)
+
+ # Part 2
+
+ 
