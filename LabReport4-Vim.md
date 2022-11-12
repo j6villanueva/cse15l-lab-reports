@@ -57,7 +57,7 @@ I ran into difficulties trying to remember how to navigate Vim again but after p
 ## Question 1
 ### Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
-I prefer using Vim direcly on the server out of both styles if I were working on a program remotely. Even though I am not used to using them this was way more convenient as I was already on the server and I didn't have to think further about copying stuff over, logging in the server, and jumping into the correct diretory to run the tests.
+I prefer using Vim direcly on the server out of both styles if I were working on a program remotely. Even though I am not used to using them this was more convenient as I was already on the server and I didn't have to think further about copying stuff over, logging in the server, and jumping into the correct directory to run the tests.
 
 ## Question 2
 ### What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
