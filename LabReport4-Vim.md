@@ -62,4 +62,4 @@ I prefer using Vim direcly on the server out of both styles if I were working on
 ## Question 2
 ### What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
- If I was changing large amounts of code I would most likely just adjust the files in VS code and SCP them over but for quick fixes I prefer to be on the server and use Vim
+ If I was changing large amounts of code I would most likely just adjust the files in VScode and SCP them over but for quick fixes I prefer to be on the server and use Vim. Vim isn't something I use often and I feel as if I would be faster clicking my way into/through different files rather than using "h j k l". I completely agree with Professo Politz from class that we have the conveniency of the mouse so lets use it.
