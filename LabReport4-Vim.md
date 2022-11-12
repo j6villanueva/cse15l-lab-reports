@@ -12,18 +12,15 @@ Key Sequence to change main method:
 ![Step1](Lab4-img/Lab4.1.png)
 ![Step1.1](Lab4-img/Lab4.1.1.png) 
 
-    - `n` **Iterate once to the second occcurence of techn**
+###    b. `n` **Iterate once to the second occcurence of techn**
  ![Step2](Lab4-img/Lab4.2.png)
 
+###    c. `ce` **Replace to the end of the current word with nothing**
  ![Step3](Lab4-img/Lab4.3.png)
-* `ce` **Replace to the end of the current word with nothing**
 
-
-
+###     d. `<esc>` Exit insert mode
  ![Step4](Lab4-img/Lab4.4.png)
-* Exit insert mode
 
-`<esc>`
 
  ![Step5](Lab4-img/Lab4.5.png)
 * Move cursor left twice to the beginning of the parameter input
