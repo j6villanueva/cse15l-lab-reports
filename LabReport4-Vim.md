@@ -32,17 +32,11 @@
 ###    g. `i` **Change to insert mode.**
  ![Step7](Lab4-img/Lab4.7.png)
 
+###    h. `args[1]` **Enter args[1] in the parameter space to allow for the use of the second command-line argument for the path to search.**
  ![Step8](Lab4-img/Lab4.8.png)
-* Enter args[1] in the parameter space to allow for the use of the second command-line argument for the path to search
 
-`args[1]`
-
+###    i. `<esc>` **Exit insert mode and go back to normal mode.**
  ![Step9](Lab4-img/Lab4.9.png)
-* Exit insert mode and go back to normal mode
 
-`<esc>`
-
+###    j. `:wq` **Save and quit vim.**
  ![Step10](Lab4-img/Lab4.10.png)
-* Save and quit vim
-
-`:wq`
