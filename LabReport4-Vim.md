@@ -1,11 +1,11 @@
 # Lab Report 4 - Vim
 ## Change main method to allow the second command line argument to be used for the path to search
 
-Key Sequence to change main method:
+### Key Sequence to change main method:
 `/techn<Enter>nce<esc>hhxxxxxiargs[1]<esc>:wq`
 
-1. First use vim DocSearchServer.java in order to get into the DocSearchServer.java file.
-2. After, type in each key sequence detailed below:
+### 1. First use vim DocSearchServer.java in order to get into the DocSearchServer.java file.
+### 2. After, type in each key sequence detailed below:
 
 ###    a. `/techn<Enter>` **searches for occurrences of /techn**
 
