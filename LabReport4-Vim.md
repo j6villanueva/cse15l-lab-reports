@@ -4,8 +4,8 @@
 `/techn<Enter>nce<esc>hhxxxxxiargs[1]<esc>:wq`
 
  ![Step1](Lab4-img/Lab4.1.png)
- ![Step1.1](Lab4-img/Lab4.1.1.png)
-* Search for occurrences of /techn
+ ![Step1.1](Lab4-img/Lab4.1.1.png) 
+ - `/techn` searches for occurrences of /techn
 
 `/techn<Enter>`
 
