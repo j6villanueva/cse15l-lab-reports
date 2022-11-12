@@ -47,10 +47,10 @@
 # Part 2
 
 ## Times, Difficulties
-### VScode --> SCP: 3:43
+### VScode --> SCP: 3:43 minutes
 I ran into difficulties remembering the destination to scp to but no biggie on time loss. 
 
-### Directly on server --> Vim: 2:03
+### Directly on server --> Vim: 2:03 minutes
 I ran into difficulties trying to remember how to navigate Vim again but after pushing some keys the movements came back to me.
 
 
