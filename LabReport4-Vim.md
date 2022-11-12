@@ -7,15 +7,14 @@
 ### 1. First use vim DocSearchServer.java in order to get into the DocSearchServer.java file.
 ### 2. After, type in each key sequence detailed below:
 
-###    a. `/techn<Enter>` **searches for occurrences of /techn**
-
+### |   a. `/techn<Enter>` **searches for occurrences of /techn**
 ![Step1](Lab4-img/Lab4.1.png)
 ![Step1.1](Lab4-img/Lab4.1.1.png) 
 
-###    b. `n` **Iterate once to the second occcurence of techn**
+###    b. `n` **Iterate once to the second occcurence of techn.**
 ![Step2](Lab4-img/Lab4.2.png)
 
-###    c. `ce` **Replace to the end of the current word with nothing**
+###    c. `ce` **Replace to the end of the current word with nothing.**
  ![Step3](Lab4-img/Lab4.3.png)
 
 ###    d. `<esc>` **Exit insert mode.**
@@ -26,15 +25,12 @@
 
 
 
-###    f. `x x x x x` **Delete everything in parameter input**
+###    f. `x x x x x` **Delete everything in parameter input.**
  ![Step6](Lab4-img/Lab4.6.png)
 
 
-
+###    g. `i` **Change to insert mode.**
  ![Step7](Lab4-img/Lab4.7.png)
-* Change to insert mode
-
-`i`
 
  ![Step8](Lab4-img/Lab4.8.png)
 * Enter args[1] in the parameter space to allow for the use of the second command-line argument for the path to search
