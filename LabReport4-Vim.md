@@ -7,11 +7,11 @@ Key Sequence to change main method:
 1. First use vim DocSearchServer.java in order to get into the DocSearchServer.java file.
 2. After, type in each key sequence detailed below:
 
- a. `/techn<Enter>` **searches for occurrences of /techn**
- ![Step1](Lab4-img/Lab4.1.png)
- ![Step1.1](Lab4-img/Lab4.1.1.png) 
+    a. `/techn<Enter>` **searches for occurrences of /techn**
+        ![Step1](Lab4-img/Lab4.1.png)
+        ![Step1.1](Lab4-img/Lab4.1.1.png) 
 
-- `n` **Iterate once to the second occcurence of techn**
+    - `n` **Iterate once to the second occcurence of techn**
  ![Step2](Lab4-img/Lab4.2.png)
 
  ![Step3](Lab4-img/Lab4.3.png)
