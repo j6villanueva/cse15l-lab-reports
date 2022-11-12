@@ -46,6 +46,8 @@
 
  # Part 2
 
-### Quesstion 1
- 
-### Quesstion 2
+## Question 1
+### Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
+## Question 2
+### What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
