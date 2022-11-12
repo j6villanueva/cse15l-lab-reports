@@ -5,22 +5,19 @@ Key Sequence to change main method:
 `/techn<Enter>nce<esc>hhxxxxxiargs[1]<esc>:wq`
 
 1. First use vim DocSearchServer.java in order to get into the DocSearchServer.java file.
-2. After, type in the key sequence detailed below:
+2. After, type in each key sequence detailed below:
 
- - `/techn<Enter>` **searches for occurrences of /techn**
+ a. `/techn<Enter>` **searches for occurrences of /techn**
  ![Step1](Lab4-img/Lab4.1.png)
  ![Step1.1](Lab4-img/Lab4.1.1.png) 
 
-
+- `n` **Iterate once to the second occcurence of techn**
  ![Step2](Lab4-img/Lab4.2.png)
-- Iterate once to the second occcurence of techn
-
-`n`
 
  ![Step3](Lab4-img/Lab4.3.png)
-* Replace to the end of the current word with nothing
+* `ce` **Replace to the end of the current word with nothing**
 
-`ce`
+
 
  ![Step4](Lab4-img/Lab4.4.png)
 * Exit insert mode
