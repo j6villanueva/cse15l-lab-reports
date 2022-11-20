@@ -2,7 +2,8 @@
 
 # Code Block
 
-```     #Total student score out of 35
+```     
+    #Total student score out of 35
     TOTAL_SCORE=0
 
 
