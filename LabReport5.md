@@ -82,5 +82,5 @@
     fi
 
     # Give a final score for the students
-    score_message $TOTAL_SCORE ```
+    score_message $TOTAL_SCORE
 
