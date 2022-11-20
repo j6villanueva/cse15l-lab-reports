@@ -87,9 +87,9 @@
 
 ### 2. Student Submissions
 
-### | a.
+### - a.
  ![https://github.com/ucsd-cse15l-f22/list-methods-lab3](Lab5-img/Lab5.1.png)
-### | b.
+### - b.
  ![https://github.com/ucsd-cse15l-f22/list-methods-corrected](Lab5-img/Lab5.2.png)
-### | c.
+### - c.
  ![https://github.com/ucsd-cse15l-f22/list-methods-compile-error](Lab5-img/Lab5.3.png)
