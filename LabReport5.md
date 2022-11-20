@@ -85,3 +85,11 @@
     # Give a final score for the students
     score_message $TOTAL_SCORE
 
+### 2. Student Submissions
+
+### * a.
+ ![https://github.com/ucsd-cse15l-f22/list-methods-lab3](Lab4-img/Lab4.5.png)
+### * b.
+ ![https://github.com/ucsd-cse15l-f22/list-methods-corrected](Lab4-img/Lab4.5.png)
+### * c.
+ ![https://github.com/ucsd-cse15l-f22/list-methods-compile-error](Lab4-img/Lab4.5.png)
