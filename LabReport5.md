@@ -97,19 +97,26 @@
 ### 3. Trace Script (list-methods-corrected)
 
     function score_message(){
-	    printf "Student is given a score of $1/35 \n" <-- std.out: "Student is given a score of $1/35 \n"
-	    exit 0 <-- std.err: exit 0
+	    printf "Student is given a score of $1/35 \n"
+
+Std.out: None
+Std.err: None
+Return Code: Zero
+
+	    exit 0 
 }
 
-Example text
+Std.out: None
+Std.err: None
+Return Code: Zero
 
     rm -rf $STUDENT_DIR 2> /dev/null <-- std.err: The files that are recursively removed from "student-dir" are listed here.
 
 Example text
 
-    git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR <-- std.out: The name of the repo
+    git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR
 
-    set -o pipefail <-- std.out: 
+    set -o pipefail  
 
     INNARDS=$(ls ./$STUDENT_DIR)
     # very bad case of a repo with just one subdirectory
@@ -119,36 +126,36 @@ Example text
 
 Example text
 
-    cd ./$STUDENT_DIR/ <-- std.out: 
+    cd ./$STUDENT_DIR/ 
 
     # wrong name fix, one file expected though
     #FIXME: I do not know how a file with multiple periods in filename may behave
-    badname=$(ls | cut -d '.' -f 1) <-- std.out: 
+    badname=$(ls | cut -d '.' -f 1)  
     if [[ $badname.java != ListExamples.java ]]; then
-	    sed -i "s/${badname}/ListExamples/g" $badname.java <-- std.out: 
-	    mv $badname.java ListExamples.java > /dev/null <-- std.out: 
+	    sed -i "s/${badname}/ListExamples/g" $badname.java 
+	    mv $badname.java ListExamples.java > /dev/null 
     fi
 
-    cp $PREFIX/$TESTNAME.java ./ <-- std.out: 
+    cp $PREFIX/$TESTNAME.java ./  
 
-    printf "<<-- Starting Compilation -->>\n" <-- std.out: 
+    printf "<<-- Starting Compilation -->>\n"
 
-    javac -cp $CP *.java | tee output.txt <-- std.out: 
+    javac -cp $CP *.java | tee output.txt
 
     # check if their code compiled without errors
     if [[ $? -ne 0 ]]; then
 	
-	    echo compilation error <-- std.out: 
-	    score_message $TOTAL_SCORE <-- std.out: 
+	    echo compilation error 
+	    score_message $TOTAL_SCORE 
 
     fi
 
     # awarding them points for compiling
     TOTAL_SCORE=$((TOTAL_SCORE + 5))
 
-    printf "<<-- Running Java -->>\n" <-- std.out: 
+    printf "<<-- Running Java -->>\n"
 
-    java -cp $CP org.junit.runner.JUnitCore $TESTNAME | tee -a output.txt <-- std.out: 
+    java -cp $CP org.junit.runner.JUnitCore $TESTNAME | tee -a output.txt
 
     # check if their code runs tests
     if [[ $? -eq 0 ]]; then
@@ -161,10 +168,10 @@ Example text
 	    tests=$(echo $t | cut -d ' ' -f 3 | cut -d ',' -f 1)
 	    failed=$(echo $t | cut -d ' ' -f 5)
 
-	    echo $((tests - failed))/$tests tests passed <-- std.out: 
+	    echo $((tests - failed))/$tests tests passed 
 
 	    TOTAL_SCORE=$((TOTAL_SCORE + 15*(tests - failed))) # 15 is just the point per test in this example
     fi
 
     # Give a final score for the students
-    score_message $TOTAL_SCORE <-- std.out: 
+    score_message $TOTAL_SCORE 
