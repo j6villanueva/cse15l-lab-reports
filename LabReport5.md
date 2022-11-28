@@ -96,23 +96,25 @@
 
  ### 3. Trace Script (list-methods-compile-error)
 
-        function score_message(){
-	        printf "Student is given a score of $1/35 \n" <-- std.out: "Student is given a score of $1/35 \n"
-	        exit 0 <-- std.err: exit 0
-    }
+    function score_message(){
+	    printf "Student is given a score of $1/35 \n" <-- std.out: "Student is given a score of $1/35 \n"
+	    exit 0 <-- std.err: exit 0
+}
+Example text
 
-        rm -rf $STUDENT_DIR 2> /dev/null <-- std.err: The files that are recursively removed from "student-dir" are listed here.
+    rm -rf $STUDENT_DIR 2> /dev/null <-- std.err: The files that are recursively removed from "student-dir" are listed here.
 
-        git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR <-- std.out: The name of the repo
+Example text
+    git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR <-- std.out: The name of the repo
 
-        ```set -o pipefail <-- std.out: 
+    set -o pipefail <-- std.out: 
 
     INNARDS=$(ls ./$STUDENT_DIR)
     # very bad case of a repo with just one subdirectory
     if [[ -d ./$STUDENT_DIR/$INNARDS ]]; then
 	    STUDENT_DIR=$STUDENT_DIR/$INNARDS/
     fi
-
+Example text
     cd ./$STUDENT_DIR/ <-- std.out: 
 
     # wrong name fix, one file expected though
