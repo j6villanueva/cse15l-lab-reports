@@ -97,21 +97,15 @@
  ### 3. Trace Script (list-methods-compile-error)
 
         function score_message(){
-
 	        printf "Student is given a score of $1/35 \n" <-- std.out: "Student is given a score of $1/35 \n"
 	        exit 0 <-- std.err: exit 0
     }
 
-    PREFIX=$PWD
-    CP=".:$PREFIX/lib/hamcrest-core-1.3.jar:$PREFIX/lib/junit-4.13.2.jar" # relative junit
-    TESTNAME="TestListExamples"
-    STUDENT_DIR="student-dir"
+        rm -rf $STUDENT_DIR 2> /dev/null <-- std.err: The files that are recursively removed from "student-dir" are listed here.
 
-    rm -rf $STUDENT_DIR 2> /dev/null <-- std.err: The files that are recursively removed from "student-dir" are listed here.
+        git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR <-- std.out: The name of the repo
 
-    git clone $1 $STUDENT_DIR || exit 1 # names the repo $STUDENT_DIR <-- std.out: The name of the repo
-
-    set -o pipefail <-- std.out: 
+        ```set -o pipefail <-- std.out: 
 
     INNARDS=$(ls ./$STUDENT_DIR)
     # very bad case of a repo with just one subdirectory
@@ -131,7 +125,6 @@
 
     cp $PREFIX/$TESTNAME.java ./ <-- std.out: 
 
-
     printf "<<-- Starting Compilation -->>\n" <-- std.out: 
 
     javac -cp $CP *.java | tee output.txt <-- std.out: 
@@ -146,7 +139,6 @@
 
     # awarding them points for compiling
     TOTAL_SCORE=$((TOTAL_SCORE + 5))
-
 
     printf "<<-- Running Java -->>\n" <-- std.out: 
 
