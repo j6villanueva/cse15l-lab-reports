@@ -94,7 +94,7 @@
 ### - c. (list-methods-compile-error)
  ![https://github.com/ucsd-cse15l-f22/list-methods-compile-error](Lab5-img/Lab5.3.png)
 
- ### 3. Trace Script (list-methods-compile-error)
+### 3. Trace Script (list-methods-corrected)
 
     function score_message(){
 	    printf "Student is given a score of $1/35 \n" <-- std.out: "Student is given a score of $1/35 \n"
